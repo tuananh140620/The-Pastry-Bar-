@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">nhom2</string>
+    <string name="full_name">thepastrybar</string>
+    <string name="back_to_home">Back to\nHome</string>
+    <string name="username_title">Username</string>
+    <string name="username">"@thepastrybar"</string>
+    <string name="phone_title">Phone</string>
+    <string name="phone">+1 484 566 4223</string>
+    <string name="address_title">Address</string>
+    <string name="address">City, Street</string>
+    <string name="email_title">Email</string>
+    <string name="email">thepastrybar@gmail.com</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">title</string>
+    <string name="order">Order</string>
+    <string name="back">back</string>
+    <string name="name">name</string>
+    <string name="amount">amount</string>
+    <string name="currency">$</string>
+    <string name="dialog_edit_name">Name</string>
+    <string name="dialog_edit_username">Username</string>
+    <string name="dialog_edit_email">Email</string>
+    <string name="dialog_edit_phone">Phone</string>
+    <string name="birthday">Birthday</string>
+    <string name="dialog_edit_address">Address</string>
+    <string name="update">Update</string>
+    <string name="the_pastry_bar">The Pastry Bar</string>
+    <string name="slogan">Experience the Taste of Excellence.</string>
+    <string name="price">49.990đ</string>
+    <string name="product_status">Available today!</string>
+    <string name="membership_discount_at_checkout">Membership Discount at Checkout!</string>
+    <string name="store_address">Hoa Lac Hi-tech, Thach That, Hanoi</string>
+    <string name="time_open">Open Time: 7am - 9pm\n Monday - Friday</string>
+    <string name="contact">0336688999\nthepastrybar@gmail.com</string>
+    <string name="popular_food_of_the_week">Popular Food of The Week</string>
+    <string name="deals_of_the_day">Deals of the day</string>
+    <string name="order_list">Order List</string>
+    <string name="checkout">Checkout</string>
+    <string name="user_profile">User Profile</string>
+    <string name="about_us">About Us</string>
+    <string name="menu">Menu</string>
+    <string name="home">Home</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="order_history">Order History</string>
+    <string name="_20_11_2000">20/11/2000</string>
+    <string name="location">Location</string>
+    <string name="time">time</string>
+    <string name="history_price">Price:</string>
+    <string name="type">Type:</string>
+    <string name="hint_email">Email</string>
+    <string name="tab_login">Login</string>
+    <string name="hint_password">Password</string>
+    <string name="food_order">Order</string>
+    <string name="cancel_payment">Cancel Payment</string>
+    <string name="register">Register</string>
+    <string name="hint_username">Username</string>
+    <string name="register_new_account">Register New Account</string>
+    <string name="signout">Sign Out</string>
+
+    <string name="sign_out_dialog_title_text">Sign Out?</string>
+    <string name="sign_out_dialog_message_text">On proceeding, you will be signed out of the app.</string>
+    <string name="pro_cat_dialog_cancel_btn">Cancel</string>
+    <string name="dialog_sign_out_btn_text">Sign Out</string>
+</resources>

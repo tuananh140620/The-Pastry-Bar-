@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/food_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/food_item_imageview_marginTop"
+            android:layout_marginEnd="@dimen/food_item_imageview_marginStart"
+            android:alpha="0.7"
+            android:background="@drawable/round_outline"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/food_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/food_image"
+            android:layout_alignEnd="@+id/food_image"
+            android:layout_alignBottom="@+id/food_image"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/muli"
+            android:gravity="center"
+            android:shadowColor="@color/Silver_Metallic"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="10"
+            android:textAlignment="center"
+            android:textColor="@color/whiteColor"
+            android:textSize="@dimen/food_item_textview_textSize"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+</LinearLayout>

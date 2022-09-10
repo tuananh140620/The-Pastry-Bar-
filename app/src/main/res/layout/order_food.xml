@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_window"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/amountSpinner"
+        android:layout_width="@dimen/order_food_spinner_width"
+        android:layout_height="@dimen/order_food_spinner_height"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/order_food_spinner_marginStart"
+        android:layout_marginTop="@dimen/order_food_spinner_marginTop"
+        android:layout_marginEnd="@dimen/order_food_spinner_marginEnd"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/total_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/order_food_textview_marginTop"
+        android:fontFamily="@font/muli"
+        android:textAlignment="center"
+        android:textColor="@color/whiteColor"
+        android:textSize="@dimen/order_food_textview_textSize" />
+
+    <Button
+        android:id="@+id/order_food_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_button"
+        android:text="@string/food_order" />
+</LinearLayout>

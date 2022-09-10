@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/whiteColor"
+    android:orientation="vertical"
+    tools:context=".fragments.ServiceFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fragment_service_linear_layout_height"
+        android:layout_weight="0.4"
+        android:background="@drawable/bg_top"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fragment_service_relative_layout_marginTop"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/profile_name"
+                style="@style/TextName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/fragment_service_relative_layout_textview_marginVertical"
+                android:layout_marginTop="@dimen/fragment_service_relative_layout_textview_marginTop"
+                android:text="@string/full_name"
+                android:textSize="@dimen/fragment_service_relative_layout_textview_textSize"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/update_profile"
+                android:layout_width="@dimen/fragment_service_relative_layout_imageView_width"
+                android:layout_height="@dimen/fragment_service_relative_layout_imageView_height"
+                android:layout_below="@+id/profile_name"
+                android:layout_marginStart="@dimen/fragment_service_relative_layout_imageView_marginStart"
+                android:layout_marginTop="@dimen/fragment_service_relative_layout_imageView_marginTop"
+                android:src="@drawable/ic_settings_black_24dp" />
+
+            <TextView
+                android:id="@+id/edit_profile_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile_name"
+                android:layout_marginTop="@dimen/fragment_service_relative_layout_textview2_marginTop"
+                android:layout_toEndOf="@+id/update_profile"
+                android:text="@string/edit_profile" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/order_history"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fragment_service_frame_layout_height"
+        android:layout_marginStart="@dimen/fragment_service_frame_layout_marginStart"
+        android:layout_marginTop="@dimen/fragment_service_frame_layout_marginTop"
+        android:layout_marginEnd="@dimen/fragment_service_frame_layout_marginEnd"
+        android:background="@drawable/bg_button_rounded">
+
+        <ImageView
+
+            android:layout_width="@dimen/fragment_service_frame_layout_imageView_width"
+            android:layout_height="@dimen/fragment_service_frame_layout_imageView_height"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/fragment_service_frame_layout_imageView_marginStart"
+            android:background="@drawable/bg_circle"
+            android:padding="@dimen/fragment_service_frame_layout_imageView_padding"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            style="@style/TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/order_history" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fragment_service_linear_layout2_height"
+        android:layout_marginTop="@dimen/fragment_service_linear_layout2_marginTop"
+        android:layout_weight="0.6"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/fragment_service_linear_layout2_paddingStart"
+        android:paddingEnd="@dimen/fragment_service_linear_layout2_paddingEnd">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fragment_service_linear_layout2_linear_marginTop"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/fragment_service_linear_layout2_linear_imageView_width"
+                android:layout_height="@dimen/fragment_service_linear_layout2_linear_imageView_height"
+                android:layout_marginEnd="@dimen/fragment_service_linear_layout2_linear_imageView_marginEnd"
+                android:src="@drawable/ic_profile" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TextBlackTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/username_title" />
+
+                <TextView
+                    android:id="@+id/profile_username"
+                    style="@style/TextDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/username" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fragment_service_linear_layout3_marginTop"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/fragment_service_linear_layout3_imageView_width"
+                android:layout_height="@dimen/fragment_service_linear_layout3_imageView_height"
+                android:layout_marginEnd="@dimen/fragment_service_linear_layout3_imageView_marginEnd"
+                android:padding="@dimen/fragment_service_linear_layout3_imageView_padding"
+                android:src="@drawable/ic_phone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TextBlackTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/phone_title" />
+
+                <TextView
+                    android:id="@+id/profile_phone"
+                    style="@style/TextDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/phone" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fragment_service_linear_layout4_marginTop"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/fragment_service_linear_layout4_imageView_width"
+                android:layout_height="@dimen/fragment_service_linear_layout4_imageView_height"
+                android:layout_marginEnd="@dimen/fragment_service_linear_layout4_imageView_marginEnd"
+                android:padding="@dimen/fragment_service_linear_layout4_imageView_padding"
+                android:src="@drawable/ic_email" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TextBlackTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/email_title" />
+
+                <TextView
+                    android:id="@+id/profile_email"
+                    style="@style/TextDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/email" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fragment_service_linear_layout5_marginTop"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/fragment_service_linear_layout5_imageView_width"
+                android:layout_height="@dimen/fragment_service_linear_layout5_imageView_height"
+                android:layout_marginEnd="@dimen/fragment_service_linear_layout5_imageView_marginEnd"
+                android:padding="@dimen/fragment_service_linear_layout5_imageView_padding"
+                android:src="@drawable/ic_address" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TextBlackTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/address_title" />
+
+                <TextView
+                    android:id="@+id/profile_address"
+                    style="@style/TextDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/address" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fragment_service_linear_layout6_marginTop"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/fragment_service_linear_layout6_imageView_width"
+                android:layout_height="@dimen/fragment_service_linear_layout6_imageView_height"
+                android:layout_marginEnd="@dimen/fragment_service_linear_layout6_imageView_marginEnd"
+                android:padding="@dimen/fragment_service_linear_layout6_imageView_padding"
+                android:src="@drawable/ic_cake_black_24dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TextBlackTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Birthday" />
+
+                <TextView
+                    android:id="@+id/profile_birthday"
+                    style="@style/TextDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_20_11_2000" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/signoutButton"
+            android:layout_width="@dimen/register_tab_fragment_button_register_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/register_tab_fragment_button_register_marginTop"
+            android:background="@drawable/rounded_button"
+            android:text="@string/signout"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="@dimen/signout_button"/>
+
+    </LinearLayout>
+
+</LinearLayout>

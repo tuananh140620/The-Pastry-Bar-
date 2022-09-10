@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/big_image"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/food_detail_imageview_height"
+        android:layout_marginTop="@dimen/food_detail_imageview_marginTop"
+        android:src="@drawable/steak"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/muli"
+        android:text="@string/the_pastry_bar"
+        android:textSize="@dimen/food_detail_textview_textSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/big_image" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="@dimen/food_detail_textview_width"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/muli"
+        android:gravity="center"
+        android:text="@string/slogan"
+        android:textSize="@dimen/food_detail_textview_textSize2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/food_detail_textview_marginTop"
+        android:fontFamily="@font/muli"
+        android:text="@string/price"
+        android:textSize="@dimen/food_detail_textview_textSize_price"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/price">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/product_status"
+            android:textSize="@dimen/food_detail_textview_textSize_status" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/membership_discount_at_checkout"
+            android:textSize="@dimen/food_detail_textview_textSize_status" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

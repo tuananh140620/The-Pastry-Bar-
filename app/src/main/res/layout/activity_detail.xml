@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteColor"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".adapter.DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="@dimen/activity_detail_button_layout_width"
+            android:layout_height="@dimen/activity_detail_button_layout_height"
+            android:layout_marginStart="@dimen/activity_detail_button_margin_start"
+            android:background="@drawable/back1" />
+
+        <TextView
+            android:id="@+id/popular_food_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_detail_textview_margin_start"
+            android:fontFamily="@font/muli"
+            android:text="@string/title"
+            android:textAlignment="center"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/activity_textSize_title" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/popular_food_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.75"
+        android:background="@drawable/round_outline"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/popular_food_description"
+        style="@style/TextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/muli"
+        android:textAlignment="center"
+        android:textColor="@color/Black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/popular_food_price"
+            style="@style/TextName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/muli"
+            android:textAlignment="center"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/activity_detail_textSize_component"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/discount_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/popular_food_price"
+            android:layout_alignTop="@+id/popular_food_price"
+            android:layout_alignEnd="@+id/popular_food_price"
+            android:layout_alignBottom="@+id/popular_food_price"
+            android:background="@drawable/round_outline"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/discount_price"
+        style="@style/TextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/muli"
+        android:textAlignment="center"
+        android:textColor="@color/Orange_Soda"
+        android:textSize="@dimen/activity_detail_textSize_component"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/soldOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/orderFood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_detail_button_margin_top"
+        android:background="@drawable/rounded_button"
+        android:text="@string/order"
+        android:visibility="invisible" />
+</LinearLayout>

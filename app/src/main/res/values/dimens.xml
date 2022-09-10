@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_textSize_title">48sp</dimen>
+
+    <!--    activity detail-->
+    <dimen name="activity_detail_button_layout_width">50dp</dimen>
+    <dimen name="activity_detail_button_layout_height">50dp</dimen>
+    <dimen name="activity_detail_button_margin_start">5dp</dimen>
+    <dimen name="activity_detail_button_margin_top">8dp</dimen>
+    <dimen name="activity_detail_textview_margin_start">5dp</dimen>
+    <dimen name="activity_detail_textSize_component">25sp</dimen>
+
+    <!--    activity history-->
+    <dimen name="activity_history_textview_margin_top">5dp</dimen>
+    <dimen name="activity_history_button_margin_top">15dp</dimen>
+    <dimen name="activity_history_recycleView_margin_top">10dp</dimen>
+    <dimen name="activity_history_recycleView_height">500dp</dimen>
+    <dimen name="activity_history_recycleView_padding">4dp</dimen>
+
+    <!--    activity home-->
+    <dimen name="activity_home_viewPager_height">0dp</dimen>
+    <dimen name="activity_home_viewPager_width">0dp</dimen>
+
+    <!--   check out item -->
+    <dimen name="checkout_item_cardView_margin_bottom">10dp</dimen>
+    <dimen name="checkout_item_cardView_conner_radius">10dp</dimen>
+    <dimen name="checkout_item_cardView_elevation">3dp</dimen>
+    <dimen name="checkout_item_cardView_textview_width">120dp</dimen>
+    <dimen name="checkout_item_cardView_textview_height">60dp</dimen>
+    <dimen name="checkout_item_cardView_textview_padding">6dp</dimen>
+    <dimen name="checkout_item_cardView_imageview_width">45dp</dimen>
+    <dimen name="checkout_item_cardView_imageview_height">45dp</dimen>
+    <dimen name="checkout_item_cardView_imageview_marginTop">15dp</dimen>
+
+    <!--    deal item-->
+    <dimen name="deal_item_imageview_marginTop">12dp</dimen>
+    <dimen name="deal_item_imageview_marginEnd">20dp</dimen>
+    <dimen name="deal_item_textview_textSize">32dp</dimen>
+
+    <!--    food detail-->
+    <dimen name="food_detail_imageview_height">350dp</dimen>
+    <dimen name="food_detail_imageview_marginTop">20dp</dimen>
+    <dimen name="food_detail_textview_marginTop">20dp</dimen>
+    <dimen name="food_detail_textview_textSize">50dp</dimen>
+    <dimen name="food_detail_textview_textSize_price">40dp</dimen>
+    <dimen name="food_detail_textview_textSize2">18dp</dimen>
+    <dimen name="food_detail_textview_textSize_status">20dp</dimen>
+    <dimen name="food_detail_textview_width">400dp</dimen>
+
+    <!--    food item-->
+    <dimen name="food_item_imageview_marginTop">12dp</dimen>
+    <dimen name="food_item_imageview_marginStart">20dp</dimen>
+    <dimen name="food_item_textview_textSize">25sp</dimen>
+
+    <!--    fragment accessory-->
+    <dimen name="fragment_accessory_textview_textSize">25sp</dimen>
+    <dimen name="fragment_accessory_textview_textSize_title">30sp</dimen>
+    <dimen name="fragment_accessory_textview_marginStart">25dp</dimen>
+    <dimen name="fragment_accessory_textview_marginTop">10dp</dimen>
+    <dimen name="fragment_accessory_textview_width">300dp</dimen>
+    <dimen name="fragment_accessory_spinner_height">60dp</dimen>
+    <dimen name="fragment_accessory_spinner_marginTop">15dp</dimen>
+
+    <!--    fragment appetizer-->
+    <dimen name="fragment_appetizer_recyclerView_marginBottom">40dp</dimen>
+    <dimen name="fragment_appetizer_recyclerView_padding">4dp</dimen>
+
+    <!--    fragment dessert-->
+    <dimen name="fragment_dessert_recyclerView_marginBottom">40dp</dimen>
+    <dimen name="fragment_dessert_recyclerView_padding">4dp</dimen>
+
+    <!--    fragment home-->
+    <dimen name="fragment_home_textview_marginTop">15dp</dimen>
+    <dimen name="fragment_home_textview_marginTop2">40dp</dimen>
+    <dimen name="fragment_home_textview_textSize">30dp</dimen>
+    <dimen name="fragment_home_recycleView_height">0dp</dimen>
+    <dimen name="fragment_home_recycleView_marginTop">60dp</dimen>
+    <dimen name="fragment_home_recycleView_marginBottom">40dp</dimen>
+
+    <!--    fragment main-->
+    <dimen name="fragment_main_recyclerView_marginBottom">40dp</dimen>
+    <dimen name="fragment_main_recyclerView_padding">4dp</dimen>
+
+    <!--    fragment order checkout-->
+    <dimen name="fragment_order_checkout_textview_title_marginTop">5dp</dimen>
+    <dimen name="fragment_order_checkout_textview_title_textSize">40sp</dimen>
+    <dimen name="fragment_order_checkout_recycleView_height">0dp</dimen>
+    <dimen name="fragment_order_checkout_recycleView_marginTop">10dp</dimen>
+    <dimen name="fragment_order_checkout_recycleView_padding">4dp</dimen>
+    <dimen name="fragment_order_checkout_textview_price_textSize">35sp</dimen>
+    <dimen name="fragment_order_checkout_button_marginBottom">50dp</dimen>
+
+    <!--    login page tab holder-->
+    <dimen name="login_page_tab_holder_tab_layout_height">50dp</dimen>
+    <dimen name="login_page_tab_holder_pageViewer_height">0dp</dimen>
+
+    <!--    order tab holder-->
+    <dimen name="order_tab_holder_pageViewer_height">0dp</dimen>
+
+    <!--    fragment service-->
+    <dimen name="fragment_service_linear_layout_height">0dp</dimen>
+    <dimen name="fragment_service_relative_layout_marginTop">80dp</dimen>
+    <dimen name="fragment_service_relative_layout_textview_marginVertical">10dp</dimen>
+    <dimen name="fragment_service_relative_layout_textview_marginTop">10dp</dimen>
+    <dimen name="fragment_service_relative_layout_textview_textSize">45sp</dimen>
+    <dimen name="fragment_service_relative_layout_imageView_width">30dp</dimen>
+    <dimen name="fragment_service_relative_layout_imageView_height">30dp</dimen>
+    <dimen name="fragment_service_relative_layout_imageView_marginStart">70dp</dimen>
+    <dimen name="fragment_service_relative_layout_imageView_marginTop">45dp</dimen>
+    <dimen name="fragment_service_relative_layout_textview2_marginTop">50dp</dimen>
+
+    <dimen name="fragment_service_frame_layout_height">50dp</dimen>
+    <dimen name="fragment_service_frame_layout_marginStart">80dp</dimen>
+    <dimen name="fragment_service_frame_layout_marginTop">-25dp</dimen>
+    <dimen name="fragment_service_frame_layout_marginEnd">80dp</dimen>
+    <dimen name="fragment_service_frame_layout_imageView_width">36dp</dimen>
+    <dimen name="fragment_service_frame_layout_imageView_height">36dp</dimen>
+    <dimen name="fragment_service_frame_layout_imageView_marginStart">7dp</dimen>
+    <dimen name="fragment_service_frame_layout_imageView_padding">6dp</dimen>
+
+    <dimen name="fragment_service_linear_layout2_height">0dp</dimen>
+    <dimen name="fragment_service_linear_layout2_marginTop">20dp</dimen>
+    <dimen name="fragment_service_linear_layout2_paddingStart">16dp</dimen>
+    <dimen name="fragment_service_linear_layout2_paddingEnd">16dp</dimen>
+    <dimen name="fragment_service_linear_layout2_linear_marginTop">14dp</dimen>
+    <dimen name="fragment_service_linear_layout2_linear_imageView_width">50dp</dimen>
+    <dimen name="fragment_service_linear_layout2_linear_imageView_height">50dp</dimen>
+    <dimen name="fragment_service_linear_layout2_linear_imageView_marginEnd">10dp</dimen>
+
+    <dimen name="fragment_service_linear_layout3_marginTop">14dp</dimen>
+    <dimen name="fragment_service_linear_layout3_imageView_width">50dp</dimen>
+    <dimen name="fragment_service_linear_layout3_imageView_height">50dp</dimen>
+    <dimen name="fragment_service_linear_layout3_imageView_marginEnd">10dp</dimen>
+    <dimen name="fragment_service_linear_layout3_imageView_padding">4dp</dimen>
+
+    <dimen name="fragment_service_linear_layout4_marginTop">14dp</dimen>
+    <dimen name="fragment_service_linear_layout4_imageView_width">50dp</dimen>
+    <dimen name="fragment_service_linear_layout4_imageView_height">50dp</dimen>
+    <dimen name="fragment_service_linear_layout4_imageView_marginEnd">10dp</dimen>
+    <dimen name="fragment_service_linear_layout4_imageView_padding">4dp</dimen>
+
+    <dimen name="fragment_service_linear_layout5_marginTop">14dp</dimen>
+    <dimen name="fragment_service_linear_layout5_imageView_width">50dp</dimen>
+    <dimen name="fragment_service_linear_layout5_imageView_height">50dp</dimen>
+    <dimen name="fragment_service_linear_layout5_imageView_marginEnd">10dp</dimen>
+    <dimen name="fragment_service_linear_layout5_imageView_padding">4dp</dimen>
+
+    <dimen name="fragment_service_linear_layout6_marginTop">14dp</dimen>
+    <dimen name="fragment_service_linear_layout6_imageView_width">50dp</dimen>
+    <dimen name="fragment_service_linear_layout6_imageView_height">50dp</dimen>
+    <dimen name="fragment_service_linear_layout6_imageView_marginEnd">10dp</dimen>
+    <dimen name="fragment_service_linear_layout6_imageView_padding">4dp</dimen>
+
+    <!--    history item-->
+    <dimen name="history_item_cardView_marginBottom">10dp</dimen>
+    <dimen name="history_item_cardView_connerRadius">10dp</dimen>
+    <dimen name="history_item_cardView_cardElevation">3dp</dimen>
+    <dimen name="history_item_cardView_textview_price">180dp</dimen>
+    <dimen name="history_item_cardView_textview_price_padding">3dp</dimen>
+    <dimen name="history_item_cardView_textview_marginStart">20dp</dimen>
+    <dimen name="history_item_cardView_textview_marginEnd">20dp</dimen>
+    <dimen name="history_item_cardView_textview_padding">6dp</dimen>
+
+    <!--    login tab fragment-->
+    <dimen name="login_tab_fragment_textview_marginTop">60dp</dimen>
+    <dimen name="login_tab_fragment_textview_textSize">50sp</dimen>
+    <dimen name="login_tab_fragment_edittext_width">250dp</dimen>
+    <dimen name="login_tab_fragment_edittext_height">50dp</dimen>
+    <dimen name="login_tab_fragment_edittext_marginStart">32dp</dimen>
+    <dimen name="login_tab_fragment_edittext_marginTop">32dp</dimen>
+    <dimen name="login_tab_fragment_edittext_marginLeft">32dp</dimen>
+    <dimen name="login_tab_fragment_edittext_marginEnd">32dp</dimen>
+    <dimen name="login_tab_fragment_edittext_marginRight">32dp</dimen>
+    <dimen name="login_tab_fragment_edittext_paddingStart">16dp</dimen>
+    <dimen name="login_tab_fragment_button_width">150dp</dimen>
+    <dimen name="login_tab_fragment_button_height">50dp</dimen>
+    <dimen name="login_tab_fragment_button_marginTop">30dp</dimen>
+    <dimen name="login_tab_fragment_signInButton_marginBottom">15dp</dimen>
+
+    <!--    menu item-->
+    <dimen name="menu_item_cardView_marginBottom">20dp</dimen>
+    <dimen name="menu_item_cardView_connerRadius">10dp</dimen>
+    <dimen name="menu_item_cardView_elevation">3dp</dimen>
+    <dimen name="menu_item_imageView_marginStart">25dp</dimen>
+    <dimen name="menu_item_textView_marginStart">30dp</dimen>
+    <dimen name="menu_item_textView_textSize">25sp</dimen>
+
+    <!--    order food-->
+    <dimen name="order_food_spinner_width">200dp</dimen>
+    <dimen name="order_food_spinner_height">40dp</dimen>
+    <dimen name="order_food_spinner_marginStart">8dp</dimen>
+    <dimen name="order_food_spinner_marginLeft">8dp</dimen>
+    <dimen name="order_food_spinner_marginEnd">8dp</dimen>
+    <dimen name="order_food_spinner_marginRight">8dp</dimen>
+    <dimen name="order_food_spinner_marginTop">10dp</dimen>
+    <dimen name="order_food_textview_marginTop">12dp</dimen>
+    <dimen name="order_food_textview_textSize">20sp</dimen>
+
+    <!--    payment dialog-->
+    <dimen name="payment_dialog_imageview_height">100dp</dimen>
+    <dimen name="payment_dialog_imageview_marginTop">20dp</dimen>
+    <dimen name="payment_dialog_spinner_height">60dp</dimen>
+    <dimen name="payment_dialog_button_marginTop">40dp</dimen>
+
+    <!--    register tab fragment-->
+    <dimen name="register_tab_fragment_textview_textSize">50sp</dimen>
+    <dimen name="register_tab_fragment_edittext_width">250dp</dimen>
+    <dimen name="register_tab_fragment_edittext_height">50dp</dimen>
+    <dimen name="register_tab_fragment_edittext_marginTop">40dp</dimen>
+    <dimen name="register_tab_fragment_edittext_paddingStart">16dp</dimen>
+    <dimen name="register_tab_fragment_edittext_textSize">20sp</dimen>
+    <dimen name="register_tab_fragment_button_toggle_width">70dp</dimen>
+    <dimen name="register_tab_fragment_button_toggle_height">70dp</dimen>
+    <dimen name="register_tab_fragment_button_toggle_marginTop">32dp</dimen>
+    <dimen name="register_tab_fragment_button_register_width">120dp</dimen>
+    <dimen name="register_tab_fragment_button_register_marginTop">40dp</dimen>
+
+    <!--    dialog edit-->
+    <dimen name="dialog_edit_edittext_width">300dp</dimen>
+    <dimen name="dialog_edit_edittext_height">38dp</dimen>
+    <dimen name="dialog_edit_edittext_marginStart">20dp</dimen>
+    <dimen name="dialog_edit_edittext_marginEnd">20dp</dimen>
+    <dimen name="dialog_edit_edittext_marginTop">22dp</dimen>
+    <dimen name="dialog_edit_edittext_paddingStart">16dp</dimen>
+    <dimen name="dialog_edit_button_width">120dp</dimen>
+    <dimen name="dialog_edit_button_marginTop">40dp</dimen>
+
+    <dimen name="signout_button">125dp</dimen>
+</resources>

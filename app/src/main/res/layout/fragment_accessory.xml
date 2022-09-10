@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_bottom"
+    tools:context=".fragments.AccessoryFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fragment_accessory_textview_marginTop"
+            android:alpha="0.75"
+            android:fontFamily="@font/muli"
+            android:text="@string/the_pastry_bar"
+            android:textStyle="bold"
+            android:textColor="@color/whiteColor"
+            android:textSize="@dimen/fragment_accessory_textview_textSize_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/screenshot_map"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/map"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title" />
+
+        <TextView
+            android:id="@+id/address"
+            style="@style/TextName"
+            android:layout_width="340dp"
+            android:layout_height="71dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:alpha="0.75"
+            android:fontFamily="@font/muli"
+            android:text="@string/store_address"
+            android:textColor="@color/whiteColor"
+            android:textSize="@dimen/fragment_accessory_textview_textSize"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/screenshot_map" />
+
+        <TextView
+            android:id="@+id/open_time"
+            style="@style/TextName"
+            android:layout_width="341dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="@dimen/fragment_accessory_textview_marginStart"
+            android:layout_marginTop="@dimen/fragment_accessory_textview_marginTop"
+            android:alpha="0.75"
+            android:fontFamily="@font/muli"
+            android:text="@string/time_open"
+            android:textColor="@color/whiteColor"
+            android:textSize="@dimen/fragment_accessory_textview_textSize"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/address" />
+
+
+        <TextView
+            android:id="@+id/contact"
+            style="@style/TextName"
+            android:layout_width="341dp"
+            android:layout_height="76dp"
+            android:layout_marginStart="@dimen/fragment_accessory_textview_marginStart"
+            android:layout_marginTop="@dimen/fragment_accessory_textview_marginTop"
+            android:alpha="0.75"
+            android:fontFamily="@font/muli"
+            android:text="@string/contact"
+            android:textColor="@color/whiteColor"
+            android:textSize="@dimen/fragment_accessory_textview_textSize"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/open_time" />
+
+        <Spinner
+            android:id="@+id/switch_res_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_accessory_spinner_height"
+            android:layout_marginTop="@dimen/fragment_accessory_spinner_marginTop"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/contact" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

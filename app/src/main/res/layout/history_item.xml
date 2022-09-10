@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/history_item_cardView_marginBottom"
+    app:cardBackgroundColor="@color/whiteColor"
+    card_view:cardCornerRadius="@dimen/history_item_cardView_cardElevation"
+    card_view:cardElevation="@dimen/history_item_cardView_cardElevation"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/history_total_price"
+                style="@style/item"
+                android:layout_width="@dimen/history_item_cardView_textview_price"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/muli"
+                android:padding="@dimen/history_item_cardView_textview_price_padding"
+                android:text="@string/history_price"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/history_type"
+                style="@style/item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/history_item_cardView_textview_marginStart"
+                android:fontFamily="@font/muli"
+                android:padding="@dimen/history_item_cardView_textview_price_padding"
+                android:text="@string/type"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/history_location"
+            style="@style/item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/muli"
+            android:text="@string/location"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/history_time"
+            style="@style/item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/history_item_cardView_textview_marginEnd"
+            android:fontFamily="@font/muli"
+            android:padding="@dimen/history_item_cardView_textview_padding"
+            android:text="@string/time"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

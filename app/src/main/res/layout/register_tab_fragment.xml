@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu">
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/muli"
+        android:text="@string/register"
+        android:textSize="@dimen/register_tab_fragment_textview_textSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/username_R"
+        android:layout_width="@dimen/register_tab_fragment_edittext_width"
+        android:layout_height="@dimen/register_tab_fragment_edittext_height"
+        android:layout_marginTop="@dimen/register_tab_fragment_edittext_marginTop"
+        android:background="@drawable/rounded_edittext_register_login"
+        android:fontFamily="@font/muli"
+        android:hint="@string/hint_username"
+        android:maxLength="20"
+        android:paddingStart="@dimen/register_tab_fragment_edittext_paddingStart"
+        android:textColor="@color/Black"
+        android:textColorHint="@color/Middle_Grey"
+        android:textSize="@dimen/register_tab_fragment_edittext_textSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/email_R"
+        android:layout_width="@dimen/register_tab_fragment_edittext_width"
+        android:layout_height="@dimen/register_tab_fragment_edittext_height"
+        android:layout_marginTop="@dimen/register_tab_fragment_edittext_marginTop"
+        android:background="@drawable/rounded_edittext_register_login"
+        android:fontFamily="@font/muli"
+        android:hint="@string/hint_email"
+        android:maxLength="40"
+        android:paddingStart="@dimen/register_tab_fragment_edittext_paddingStart"
+        android:textColor="@color/Black"
+        android:textColorHint="@color/Middle_Grey"
+        android:textSize="@dimen/register_tab_fragment_edittext_textSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username_R"
+        tools:ignore="RtlSymmetry" />
+
+
+    <EditText
+        android:id="@+id/password_R"
+        android:layout_width="@dimen/register_tab_fragment_edittext_width"
+        android:layout_height="@dimen/register_tab_fragment_edittext_height"
+        android:layout_marginTop="@dimen/register_tab_fragment_edittext_marginTop"
+        android:background="@drawable/rounded_edittext_register_login"
+        android:fontFamily="@font/muli"
+        android:hint="@string/hint_password"
+        android:inputType="textPassword"
+        android:maxLength="30"
+        android:paddingStart="@dimen/register_tab_fragment_edittext_paddingStart"
+        android:textColor="@color/Black"
+        android:textColorHint="@color/Middle_Grey"
+        android:textSize="@dimen/register_tab_fragment_edittext_textSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_R"
+        tools:ignore="RtlSymmetry" />
+
+    <Button
+        android:id="@+id/toggle"
+        android:layout_width="@dimen/register_tab_fragment_button_toggle_width"
+        android:layout_height="@dimen/register_tab_fragment_button_toggle_height"
+        android:layout_marginTop="@dimen/register_tab_fragment_button_toggle_marginTop"
+        android:alpha="0.2"
+        android:background="@drawable/show"
+        app:layout_constraintStart_toEndOf="@+id/password_R"
+        app:layout_constraintTop_toBottomOf="@+id/email_R" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="@dimen/register_tab_fragment_button_register_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/register_tab_fragment_button_register_marginTop"
+        android:background="@drawable/rounded_button"
+        android:text="@string/register_new_account"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password_R" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

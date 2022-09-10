@@ -1,0 +1,28 @@
+<!-- bottom_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        app:cnb_iconColor="@color/home"/>
+    <item
+        android:id="@+id/menu"
+        android:icon="@drawable/ic_order"
+        android:title="Menu"
+        app:cnb_iconColor="@color/order"/>
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_service"
+        android:title="User Profile"
+        app:cnb_iconColor="@color/service" />
+
+
+    <item
+        android:id="@+id/accessory"
+        android:icon="@drawable/ic_accessory"
+        android:title="About Us"
+        app:cnb_iconColor="@color/accesory" />
+
+
+</menu>

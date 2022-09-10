@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adapter.HistoryActivity">
+
+    <TextView
+        android:id="@+id/checkout_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fragment_order_checkout_textview_title_marginTop"
+        android:fontFamily="@font/muli"
+        android:text="@string/order_list"
+        android:textColor="@color/Orange_Soda"
+        android:textSize="@dimen/fragment_order_checkout_textview_title_textSize"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/checkout_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fragment_order_checkout_recycleView_height"
+        android:layout_marginTop="@dimen/fragment_order_checkout_recycleView_marginTop"
+        android:clipToPadding="false"
+        android:padding="@dimen/fragment_order_checkout_recycleView_padding"
+        app:layout_constraintTop_toBottomOf="@+id/checkout_title" />
+
+
+    <TextView
+        android:id="@+id/grand_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/muli"
+        android:text="Total: $20.00"
+        android:textColor="@color/Black"
+        android:textSize="@dimen/fragment_order_checkout_textview_price_textSize"
+        app:layout_constraintBottom_toTopOf="@+id/checkout_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/checkout_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/fragment_order_checkout_button_marginBottom"
+        android:background="@drawable/rounded_button"
+        android:text="@string/checkout"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1085130604240",
+    "project_id": "mock-421e0",
+    "storage_bucket": "mock-421e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085130604240:android:85be73a08f2b9c1e5de8d5",
+        "android_client_info": {
+          "package_name": "com.example.mock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085130604240-tuvdrpdifg02blokok2tk8tl3fs9dk1c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLiqRVd_l5NOBHh8MW9-vl7gRbiCiSzOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1085130604240-tuvdrpdifg02blokok2tk8tl3fs9dk1c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

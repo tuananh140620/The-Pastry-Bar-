@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/dialog_window"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="@dimen/dialog_edit_edittext_width"
+        android:layout_height="@dimen/dialog_edit_edittext_height"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/dialog_edit_edittext_marginStart"
+        android:layout_marginTop="@dimen/dialog_edit_edittext_marginTop"
+        android:layout_marginEnd="@dimen/dialog_edit_edittext_marginEnd"
+        android:autofillHints=""
+        android:background="@drawable/rounded_edittext_register_login"
+        android:ems="10"
+        android:fontFamily="@font/muli"
+        android:hint="@string/dialog_edit_name"
+        android:inputType="textPersonName|textCapWords"
+        android:maxLength="35"
+        android:paddingStart="@dimen/dialog_edit_edittext_paddingStart"
+        android:textColor="@color/Black"
+        android:textColorHint="@color/Middle_Grey"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/edit_username"
+        android:layout_width="@dimen/dialog_edit_edittext_width"
+        android:layout_height="@dimen/dialog_edit_edittext_height"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dialog_edit_edittext_marginTop"
+        android:autofillHints=""
+        android:background="@drawable/rounded_edittext_register_login"
+        android:ems="10"
+        android:fontFamily="@font/muli"
+        android:hint="@string/dialog_edit_username"
+        android:paddingStart="@dimen/dialog_edit_edittext_paddingStart"
+        android:textColor="@color/Black"
+        android:textColorHint="@color/Middle_Grey"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="@dimen/dialog_edit_edittext_width"
+        android:layout_height="@dimen/dialog_edit_edittext_height"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dialog_edit_edittext_marginTop"
+        android:background="@drawable/rounded_edittext_register_login"
+        android:ems="10"
+        android:fontFamily="@font/muli"
+        android:hint="@string/dialog_edit_email"
+        android:inputType="textEmailAddress"
+        android:maxLength="35"
+        android:paddingStart="@dimen/dialog_edit_edittext_paddingStart"
+        android:textColor="@color/Black"
+        android:textColorHint="@color/Middle_Grey"
+        tools:ignore="RtlSymmetry"
+        android:autofillHints="" />
+
+
+    <EditText
+        android:id="@+id/edit_phone"
+        android:layout_width="@dimen/dialog_edit_edittext_width"
+        android:layout_height="@dimen/dialog_edit_edittext_height"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dialog_edit_edittext_marginTop"
+        android:background="@drawable/rounded_edittext_register_login"
+        android:ems="10"
+        android:fontFamily="@font/muli"
+        android:hint="@string/dialog_edit_phone"
+        android:inputType="phone"
+        android:paddingStart="@dimen/dialog_edit_edittext_paddingStart"
+        android:textColor="@color/Black"
+        android:textColorHint="@color/Middle_Grey"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/edit_birthday"
+        android:layout_width="@dimen/dialog_edit_edittext_width"
+        android:layout_height="@dimen/dialog_edit_edittext_height"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dialog_edit_edittext_marginTop"
+        android:background="@drawable/rounded_edittext_register_login"
+        android:ems="10"
+        android:fontFamily="@font/muli"
+        android:hint="@string/birthday"
+        android:inputType="date"
+        android:paddingStart="@dimen/dialog_edit_edittext_paddingStart"
+        android:textColor="@color/Black"
+        android:textColorHint="@color/Middle_Grey"
+        tools:ignore="RtlSymmetry"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/edit_address"
+        android:layout_width="@dimen/dialog_edit_edittext_width"
+        android:layout_height="@dimen/dialog_edit_edittext_height"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/dialog_edit_edittext_marginStart"
+        android:layout_marginTop="@dimen/dialog_edit_edittext_marginTop"
+        android:layout_marginEnd="@dimen/dialog_edit_edittext_marginEnd"
+        android:background="@drawable/rounded_edittext_register_login"
+        android:ems="10"
+        android:fontFamily="@font/muli"
+        android:hint="@string/dialog_edit_address"
+        android:inputType="textPersonName"
+        android:maxLength="35"
+        android:paddingStart="@dimen/dialog_edit_edittext_paddingStart"
+        android:textColor="@color/Black"
+        android:textColorHint="@color/Middle_Grey"
+        tools:ignore="RtlSymmetry"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/edit_button"
+        android:layout_width="@dimen/dialog_edit_button_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dialog_edit_button_marginTop"
+        android:background="@drawable/rounded_button"
+        android:gravity="center"
+        android:text="@string/update"
+        android:textStyle="bold" />
+
+</LinearLayout>

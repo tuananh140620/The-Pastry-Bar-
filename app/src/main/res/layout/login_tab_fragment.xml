@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu">
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/login_tab_fragment_textview_marginTop"
+        android:fontFamily="@font/muli"
+        android:text="@string/tab_login"
+        android:textSize="@dimen/login_tab_fragment_textview_textSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="@dimen/login_tab_fragment_edittext_width"
+        android:layout_height="@dimen/login_tab_fragment_edittext_height"
+        android:layout_marginStart="@dimen/login_tab_fragment_edittext_marginStart"
+        android:layout_marginLeft="@dimen/login_tab_fragment_edittext_marginLeft"
+        android:layout_marginTop="@dimen/login_tab_fragment_edittext_marginTop"
+        android:layout_marginEnd="@dimen/login_tab_fragment_edittext_marginEnd"
+        android:layout_marginRight="@dimen/login_tab_fragment_edittext_marginRight"
+        android:background="@drawable/rounded_edittext_register_login"
+        android:ems="10"
+        android:fontFamily="@font/muli"
+        android:hint="@string/hint_email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="@dimen/login_tab_fragment_edittext_paddingStart"
+        android:textColor="@color/Black"
+        android:textColorHint="@color/Middle_Grey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="@dimen/login_tab_fragment_edittext_width"
+        android:layout_height="@dimen/login_tab_fragment_edittext_height"
+        android:layout_marginTop="@dimen/login_tab_fragment_edittext_marginTop"
+        android:background="@drawable/rounded_edittext_register_login"
+        android:ems="10"
+        android:fontFamily="@font/muli"
+        android:hint="@string/hint_password"
+        android:inputType="textPassword"
+        android:paddingStart="@dimen/login_tab_fragment_edittext_paddingStart"
+        android:textColor="@color/Black"
+        android:textColorHint="@color/Middle_Grey"
+        app:layout_constraintEnd_toEndOf="@+id/email"
+        app:layout_constraintStart_toStartOf="@+id/email"
+        app:layout_constraintTop_toBottomOf="@+id/email"
+        tools:ignore="RtlSymmetry" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="@dimen/login_tab_fragment_button_width"
+        android:layout_height="@dimen/login_tab_fragment_button_height"
+        android:layout_marginTop="@dimen/login_tab_fragment_button_marginTop"
+        android:background="@drawable/rounded_button"
+        android:text="Login"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/password"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/password"
+        app:layout_constraintTop_toBottomOf="@+id/password" />
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="@dimen/login_tab_fragment_button_width"
+        android:layout_height="@dimen/login_tab_fragment_button_height"
+        android:layout_marginTop="@dimen/login_tab_fragment_button_marginTop"
+        android:background="@drawable/rounded_button"
+        android:text="SignUp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/submit"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/submit"
+        app:layout_constraintTop_toBottomOf="@+id/submit" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/google_sign_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/login_tab_fragment_signInButton_marginBottom"
+        app:layout_constraintEnd_toEndOf="@id/signUp"
+        app:layout_constraintStart_toStartOf="@id/signUp"
+        app:layout_constraintTop_toBottomOf="@+id/signUp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

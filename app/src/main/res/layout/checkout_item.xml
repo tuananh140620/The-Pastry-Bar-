@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/checkout_item_cardView_margin_bottom"
+    android:orientation="vertical"
+    app:cardBackgroundColor="@color/whiteColor"
+    card_view:cardCornerRadius="@dimen/checkout_item_cardView_conner_radius"
+    card_view:cardElevation="@dimen/checkout_item_cardView_elevation"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/checkout_food_name"
+            style="@style/item"
+            android:layout_width="@dimen/checkout_item_cardView_textview_width"
+            android:layout_height="@dimen/checkout_item_cardView_textview_height"
+            android:fontFamily="@font/muli"
+            android:padding="@dimen/checkout_item_cardView_textview_padding"
+            android:text="@string/name"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/checkout_amount"
+            style="@style/item"
+            android:layout_width="@dimen/checkout_item_cardView_textview_width"
+            android:layout_height="@dimen/checkout_item_cardView_textview_height"
+            android:fontFamily="@font/muli"
+            android:padding="@dimen/checkout_item_cardView_textview_padding"
+            android:text="@string/amount"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/checkout_total"
+            style="@style/item"
+            android:layout_width="@dimen/checkout_item_cardView_textview_width"
+            android:layout_height="@dimen/checkout_item_cardView_textview_height"
+            android:fontFamily="@font/muli"
+            android:padding="@dimen/checkout_item_cardView_textview_padding"
+            android:text="@string/currency"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/cancel_button_image"
+            android:layout_width="@dimen/checkout_item_cardView_imageview_width"
+            android:layout_height="@dimen/checkout_item_cardView_imageview_height"
+            android:layout_marginTop="@dimen/checkout_item_cardView_imageview_marginTop"
+            android:background="@drawable/delete" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

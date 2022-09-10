@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/menu_item_cardView_marginBottom"
+    android:orientation="vertical"
+    app:cardBackgroundColor="@color/whiteColor"
+    card_view:cardCornerRadius="@dimen/menu_item_cardView_connerRadius"
+    card_view:cardElevation="@dimen/menu_item_cardView_elevation"
+    card_view:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/menu_item_imageView_marginStart"
+            android:alpha="0.75"
+            android:background="@drawable/round_outline" />
+
+        <TextView
+            android:id="@+id/menu_food_name"
+            style="@style/TextName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/menu_item_textView_marginStart"
+            android:layout_toEndOf="@id/image_view"
+            android:alpha="0.8"
+            android:fontFamily="@font/muli"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/menu_item_textView_textSize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/menu_food_price"
+            style="@style/TextName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/menu_food_name"
+            android:layout_marginStart="@dimen/menu_item_textView_marginStart"
+            android:layout_toEndOf="@id/image_view"
+            android:alpha="0.8"
+            android:fontFamily="@font/muli"
+            android:textColor="@color/Orange_Soda"
+            android:textSize="@dimen/menu_item_textView_textSize"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

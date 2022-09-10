@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="whiteColor">#fff</color>
+    <color name="home">#FDAD5C</color>
+    <color name="order">#C9379D</color>
+    <color name="service">#03DAC5</color>
+    <color name="accesory">#1194AA</color>
+    <color name="colorSecondary">#E75370</color>
+    <color name="colorSecondaryDark">#C35CEF</color>
+    <color name="TextColor">#E34C4F</color>
+
+    <color name="Cultured">#F7F7F7</color>
+    <color name="Light_Gray">#D3D3D3</color>
+    <color name="Black">#000000</color>
+
+    <color name="Silver_Metallic">#A6A2A3</color>
+    <color name="Middle_Grey">#88807B</color>
+    <color name="Eerie_Black">#222021</color>
+
+    <color name="Orange_Soda">#E9603A</color>
+    <color name="Citrine">#E9D53A</color>
+    <color name="Blue_Jeans">#44A6F7</color>
+    <color name="Coral">#FF7F50</color>
+    <color name="Orange_Peel">#F5A029</color>
+</resources>
